@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <header className="flex flex-col w-full items-center bg-[#dae6fb] py-5 px-8 text-center gap-4">
+      <header className="flex flex-col w-full items-center bg-[#dae6fb] py-2 px-8 text-center gap-4">
         <div>
           <Button
             text="Buy $JRB"
@@ -376,7 +376,7 @@ function App() {
         <div className="bg-[#dae6fb] flex justify-between px-[30px] py-[16px]">
           <Button
             blue="true"
-            classNames="border-2 rounded-xl"
+            classNames="rounded-xl w-fit max-w-fit"
             textClasses="text-[#fef9ec]"
             target="_blank"
             href="https://dexscreener.com/solana/etklgrip5pgk8xlc6b6s4f7va23k2eggahh6jsrz4ht5"
