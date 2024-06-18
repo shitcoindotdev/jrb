@@ -347,7 +347,7 @@ function App() {
         </div>
       </footer>
       <div
-        className={`${isOpen ? 'fadeIn opacity-0' : 'fadeOut opacity-100'} transition duration-300 ease-in-out fixed w-[350px] max-w-[90%] right-4 bottom-4 flex flex-col rounded-xl overflow-hidden`}
+        className={`${isOpen ? 'fadeIn opacity-0' : 'fadeOut opacity-[0.98]'} transition duration-300 ease-in-out fixed w-[350px] max-w-[90%] right-4 bottom-4 flex flex-col rounded-xl overflow-hidden`}
         style={{ boxShadow: '0 0 8px rgba(0, 0, 0, 0.2)' }}
       >
         <div className=" bg-white pt-5 px-4 gap-4">
