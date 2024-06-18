@@ -235,8 +235,8 @@ function App() {
           </a>
           <div className="flex flex-col text-4 lg:text-[20px] sm:flex-row items-center gap-4 sm:gap-0 justify-center sm:items-start">
             <p className="text-center px-6 tracking-wide sm:text-start sm:w-[50%]">
-              Joe and Kamala are running to ensure four more years of pump for
-              the American people. We need your help to pump this Job. Share
+              Joe and Kamala are running to ensure four more years of pumping
+              for the American people. We need your help to pump this Job. Share
               this token with your friends!
             </p>
             <div className="relative flex flex-col items-center gap-2 font-extrabold">
