@@ -25,7 +25,7 @@ body {
   animation: fadeOut 0.5s 0.25s ease-in-out forwards;
 }
 
-@keyframes fadeIn {
+@keyframes fadeOut {
   0% {
     transform: translateX(0%);
     opacity: 1;
