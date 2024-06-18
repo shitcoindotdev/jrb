@@ -354,7 +354,7 @@ function App() {
           <p className="text-end text-[12px] text-black/50 tracking-wide">
             1 UNREAD MESSAGE
           </p>
-          <div className="flex items-center justify-between text-[#08388b]">
+          <div className="flex items-center justify-between text-[#08388b] pb-2">
             <img
               className="rounded-full h-20 w-20"
               src="https://pbs.twimg.com/profile_images/1802935932821381120/jYcSIJL4_400x400.jpg"
