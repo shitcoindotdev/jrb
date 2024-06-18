@@ -42,6 +42,7 @@ out/
 # Nuxt.js
 .nuxt/
 
+
 # VuePress
 .vuepress/dist/
 
