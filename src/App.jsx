@@ -11,10 +11,6 @@ function App() {
   return (
     <>
       <header className="flex flex-col w-full items-center bg-[#dae6fb] py-5 px-8 text-center gap-4">
-        <p className="tracking-wide">
-          Joe and Kamal are on board -- are you? Chip in today to power our
-          pump.
-        </p>
         <div>
           <Button
             text="Buy $JRB"
