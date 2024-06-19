@@ -10,9 +10,9 @@ function App() {
 
   return (
     <>
-      {/* <dialog
+      <dialog
         open
-        className="fixed flex items-center justify-center bottom-0 left-0 bg-black/25 backdrop-blur-lg h-dvh w-full z-50"
+        className="fixed flex items-center justify-center bottom-0 left-0 bg-black/15 backdrop-blur-sm h-dvh w-full z-50"
       >
         <div className="p-4 flex flex-col gap-4 text-white font-medium text-center bg-zinc-800 rounded-xl shadow-md w-full max-w-[500px] mx-4">
           <h1>
@@ -38,7 +38,7 @@ function App() {
             https://t.me/shitcoindotdev
           </a>
         </div>
-      </dialog> */}
+      </dialog>
       <header className="flex flex-col w-full items-center bg-[#dae6fb] py-2 px-8 text-center gap-4">
         <div>
           <Button
