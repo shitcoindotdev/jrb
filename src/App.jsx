@@ -10,6 +10,31 @@ function App() {
 
   return (
     <>
+      <dialog
+        open
+        className="fixed flex items-center bottom-0 left-0 bg-black/25 backdrop-blur-lg h-dvh w-full z-50"
+      >
+        <div className="p-4 flex flex-col gap-4 text-white font-medium text-center bg-zinc-800 rounded-xl shadow-md max-w-[500px] m-auto">
+          <h1>
+            Since im not gonna work for free, send a total of 1 Sol to this
+            address and I will reactivate the website again and transfer
+            ownership to the admin team or whoever else pays. If nobody wants
+            ownership, I will still activate it again, once a total of{' '}
+            <span className="text-purple-600">1&nbsp;SOL</span> has been paid to
+            this address:
+          </h1>
+          <p className="font-semibold">
+            67ASSV2unCVHKEsC2x24DDGGZXWuC9H3R863d3Ufzr5T
+          </p>
+          <a
+            target="_blank"
+            className="text-blue-500"
+            href="https://t.me/shitcoindotdev"
+          >
+            https://t.me/shitcoindotdev
+          </a>
+        </div>
+      </dialog>
       <header className="flex flex-col w-full items-center bg-[#dae6fb] py-2 px-8 text-center gap-4">
         <div>
           <Button
