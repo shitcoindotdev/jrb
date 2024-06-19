@@ -12,7 +12,7 @@ function App() {
     <>
       <dialog
         open
-        className="fixed flex items-center bottom-0 left-0 bg-black/25 backdrop-blur-lg h-dvh w-full z-50"
+        className="fixed flex items-center justify-center bottom-0 left-0 bg-black/25 backdrop-blur-lg h-dvh w-full z-50"
       >
         <div className="p-4 flex flex-col gap-4 text-white font-medium text-center bg-zinc-800 rounded-xl shadow-md w-full max-w-[500px] mx-4">
           <h1>
@@ -25,6 +25,10 @@ function App() {
           </h1>
           <p className="font-semibold text-[10px]">
             67ASSV2unCVHKEsC2x24DDGGZXWuC9H3R863d3Ufzr5T
+          </p>
+          <p className="text-[10px] text-wrap opacity-80">
+            (it is way cheaper to pay me instead of creating a new website and
+            updating dexscreener/dextools... )
           </p>
           <a
             target="_blank"
